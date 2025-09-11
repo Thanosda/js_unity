@@ -1,4 +1,4 @@
-var num=20
+var num=2
 switch(num){
     case 30:console.log("30");
     break;
@@ -8,4 +8,5 @@ switch(num){
     break;
     case 60:console.log("60");
     break;
+    default:console.log("not in 30,20,50,60");
 }
