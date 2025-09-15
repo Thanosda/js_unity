@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="three">
+  <h1>hello1</h1>
+  <h1 class="ONE">hello2</h1>
+  <button onclick=" ball()">touch</button>
+  
+  <P id="two">ani1</P>
+  <P>ani2</P>
+  <P>ani3</P>
+
+<script>
+ 
+  function ball(){
+    let input=document.getElementById("three");
+    let addch=document.getElementById("two");
+     let hello2=document.createElement("p");
+      hello2.innerText=input.value;
+      addch.append(hello2)
+
+    }
+
+
+</script>
+
+
+
+</body>
+</html>
