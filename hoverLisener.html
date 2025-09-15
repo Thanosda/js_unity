@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    img{
+        width: 30rem;
+        height: 17rem;
+        border-radius: 5%;
+    }
+</style>
+<body>
+    
+<img src="/img/247539.jpg" alt="samurai">
+<p>Samurai Jack</p>
+
+<script>
+    let image=document.querySelector("img");
+    let p=document.querySelector("p");
+    image.addEventListener("mouseover",function(){
+        image.src="/img/905858.jpg"
+        p.innerText="Peace"
+    })
+image.addEventListener("mouseout",function(){
+        image.src="/img/247539.jpg"
+        p.innerText="Aku"
+    })
+
+
+</script>
+
+
+
+
+</body>
+</html>
